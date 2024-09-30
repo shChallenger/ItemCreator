@@ -1,0 +1,9 @@
+name: ItemCreator
+author: Challenger
+version: 1.0
+depend: [Vault]
+main: com.endmc.itemcreator.ItemCreatorPlugin
+commands:
+  givecustomitem:
+    description: give a custom item to a player
+    permission: givecustomitem.use
